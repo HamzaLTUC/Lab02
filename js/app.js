@@ -61,7 +61,7 @@ Q5()
 alert ('Thanks You For Joining My Guess Cat Game '+  ' ' + wlc + ' ' ) 
 
 document.write ("Hello " + wlc + "! How are you today? , Did You like this Game :D");
-console.log(jump); console.log(cheese); console.log(swim) ; console.log(forest); console.log(grass);
+
 
 
 //here is the 6th question
@@ -119,39 +119,4 @@ if (Counter===5){
 Q7()
 
 alert('Your score out of 7 is' + ' ' + score) ;
-console.log(FavColor[0]);console.log(FavColor[1]);console.log(FavColor[2]);console.log(FavColor[3]);console.log(Myage);
 
-// method 1 
-
-// let Counter=0;
-// let FavColor= ['Black' ,'White' , 'Blue' , 'Grey'];
-// for(let i = 0; i < 6; i++){     
-// let question = prompt('Guess My favourite Color??')
-//  if(question === FavColor[0].toLowerCase()){
-//     alert('You Have Got the Colors')
-//     score++;
-//      break;
-// } else if (question === FavColor[1].toLowerCase()){
-//     alert('You Have Got the Colors')
-//     score++;
-//     break ;
-// }
-// else if (question === FavColor[2].toLowerCase()){
-//     alert('You Have Got the Colors')
-//     score++;
-//     break ;
-// }
-// else if (question === FavColor[3].toLowerCase()){
-//     alert('You Have Got the Colors')
-//     score++;
-//     break ;
-// }
-// else (alert ('Try again' +' '+'My Favourite Colors are '))
-// Counter=+i
-// }
-
-// if (Counter===5){
-//     alert('Hard Luck the answers are Black , White , Blue , Grey')
-// }
-// alert('Your score out of 7 is' + ' ' + score) ;
-// console.log(FavColor[0]);console.log(FavColor[1]);console.log(FavColor[2]);console.log(FavColor[3]);console.log(Myage);
